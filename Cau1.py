@@ -23,7 +23,7 @@ print(f'Tỉ lệ khách hàng không có thông tin là {missing_ratio:.2f}%')
 
 
 # #Câu3
-print("câu 3")
+print("câu 10")
 # Nhóm dữ liệu theo "Country" và tính tổng "Quantity"
 country_orders = data.groupBy("Country") \
     .agg(sum("InvoiceNo").alias("TotalQuantity")) \
